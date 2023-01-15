@@ -1,0 +1,25 @@
+body {
+    background-color: #4cc1d4ff;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.25;
+  
+    min-height: 5000px;
+  }
+  
+  section.book {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  section.content {
+    width: 50%;
+    max-width: 600px;
+    padding: 32px;
+  
+    position: relative;
+    z-index: 1;
+  }
+  
